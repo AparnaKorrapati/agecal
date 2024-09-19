@@ -1,0 +1,60 @@
+/* Basic styling for the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color:azure;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Card styling */
+.card {
+    background: palegoldenrod;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px black;
+    width: 300px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="date"] {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 10px;
+    width: 85%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: black;
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: palevioletred;
+}
+
+#currentAge {
+    margin-top: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
